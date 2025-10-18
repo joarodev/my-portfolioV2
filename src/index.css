@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+/* Tokens principales que Tailwind leerá */
+@theme {
+  --color-bg: hsl(8 16.3% 85.7%);
+  --color-bg2: hsl(0, 0%, 60%);
+  --color-fg: hsl(8 6.5% 22.9%);
+  --color-primary: hsl(176 0% 16%);
+  --color-primary-hover: hsl(176 0% 16%);
+  --color-secondary: hsl(176 0% 69.8%);
+  --color-muted: hsl(0, 61%, 43%);
+}
+
+/* Overrides para cada theme */
+:root {
+  --color-bg: hsl(0, 0%, 75%);
+  --color-bg-grid: hsl(0, 0%, 57%);
+  --color-bg2: hsl(0, 1%, 70%);
+  --color-fg: hsl(0, 0%, 29%);
+  --color-primary: hsl(193, 9%, 31%);
+  --color-primary-hover: hsl(195, 10%, 25%);
+  --color-secondary: hsl(149, 22%, 28%);
+  --color-muted: hsl(0, 61%, 43%);
+}
+
+:root.dark {
+  --color-bg: hsl(0, 0%, 27%);
+  --color-bg-grid: hsl(0, 0%, 48%);
+  --color-bg2: hsl(0, 0%, 17%);
+  --color-fg: hsl(0, 0%, 83%);
+  --color-primary: hsl(194, 18%, 65%);
+  --color-primary-hover: hsl(196, 12%, 55%);
+  --color-secondary: hsl(150 39.2% 85.5%);
+  --color-muted: hsl(0, 61%, 43%);
+}
+
+:root.joarod {
+  --color-bg: hsl(180, 40%, 10%);
+  --color-bg-grid: hsl(180, 41%, 25%);
+  --color-bg2: hsl(180, 43%, 5%);
+  --color-fg: hsl(180, 26%, 85%);
+  --color-primary: hsl(180, 19%, 39%);
+  --color-primary-hover: hsl(180, 19%, 27%);
+  --color-secondary: hsl(180, 67%, 47%);
+  --color-muted: hsl(0, 61%, 43%);
+}
+
+@keyframes fadeZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/*Transiciones suaves */
+html, body {
+  @apply transition-colors duration-500;
+}
+body {
+  @apply bg-bg text-fg;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+/* Tamaños fuentes */
+
+.title-text {
+  @apply text-4xl md:text-5xl font-extrabold tracking-tight;
+}
+
+.subtitle-text {
+  @apply text-2xl md:text-3xl font-semibold tracking-tight;
+}
+
+.tag-text {
+  @apply text-xl md:text-2xl text-primary font-bold;
+}
+
+.regular-text {
+  @apply text-fg text-base md:text-lg;
+}

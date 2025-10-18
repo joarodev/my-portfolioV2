@@ -1,0 +1,10 @@
+.radial-gradient-mask {
+  mask-image: radial-gradient(ellipse at center, transparent 0,000001%, black 60%);
+}
+
+.grid-background {
+  background-size: 30px 30px;
+  background-image:
+    linear-gradient(to right, var(--color-bg-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-bg-grid) 1px, transparent 1px);
+}

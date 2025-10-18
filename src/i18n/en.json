@@ -1,0 +1,89 @@
+{
+  "navbar.home": "Home",
+  "navbar.about": "About me",
+  "navbar.projects": "Projects",
+  "navbar.skills": "Skills",
+  "navbar.contact": "Contact",
+  "navbar.tema": "Select a theme",
+  "navbar.tema.ligth": "Light",
+  "navbar.tema.oscuro": "Dark",
+  "navbar.tema.JoaRod": "JoaRod",
+  "navbar.language": "Select a language",
+  "hero.name": "Joaquin Rodríguez",
+  "hero.profession": ".NET Backend Developer & Data Scientist",
+  "hero.description": "Desarrollador Backend especializado en el ecosistema .NET, con experiencia en la creación de aplicaciones y APIs RESTescalables. Manejo avanzado de bases de datos relacionales y no relacionales. Cuento con experiencia en despliegue,mantenimiento y optimización de la performance de sistemas y aplicaciones rubustas, con un enfoque en arquitecturaslimpias y escalables. También poseo conocimientos y certificaciones en tecnologías y servicios Cloud como MicrosoftAzure, Google Cloud y AWS aportando flexibilidad y solidez a mis proyectos.",
+  "hero.button.proyects": "Projects",
+  "hero.button.resume": "Resume",
+  "aboutme.title": "About me",
+  "aboutme.description": "Soy un apasionado del análisis de datos y la inteligencia artificial con experiencia en la creación de soluciones innovadoras para resolver problemas complejos. Me especializo en el desarrollo de modelos predictivos, análisis estadístico y visualización de datos para ayudar a las empresas a tomar decisiones informadas. Mi objetivo es seguir creciendo profesionalmente y contribuir al avance de la ciencia de datos mediante la aplicación de técnicas avanzadas y el aprendizaje continuo.",
+  "aboutme.experience.title": "Which experience do you want to check?",
+  "aboutme.card.brain.title": "Critical Thinking",
+  "aboutme.card.brain.description": "",
+  "aboutme.card.chart.title": "Analyst",
+  "aboutme.card.chart.description": "Analizo datos desde múltiples ángulos para identificar patrones y tendencias significativas.",
+  "aboutme.card.lighbulb.title": "Curiosity",
+  "aboutme.card.lighbulb.description": "Siempre estoy buscando nuevas formas de aprender y aplicar técnicas/herramientas innovadoras.",
+  "aboutme.experience.button.professional": "Professional",
+  "aboutme.experience.button.academic": "Education",
+  "aboutme.experience.profesional": [
+    {
+      "year": "oct. 2024 - Presente",
+      "title": "Desarrollador Backend",
+      "company": "Micracel / Microtrack",
+      "description": "Desarrollo y mantengo aplicaciones backend aplicando principios de arquitectura limpia y buenas prácticas de desarrollo. Gestiono y optimizo bases de datos SQL Server, realizando modelado, optimización de consultas y administración de índices para mejorar el rendimiento. Implemento servicios en la nube con Azure y realizo integraciones de APIs y servicios web, garantizando la interoperabilidad y escalabilidad de las soluciones. Aseguro el cumplimiento de estándares de seguridad mediante control de acceso, cifrado y auditorías. Colaboro con equipos multidisciplinarios en la planificación, análisis técnico y despliegue de software en entornos productivos."
+    },
+    {
+      "year": "oct. 2023 - sept. 2025",
+      "title": "Tutor de la Carrera Desarrollador Full Stack.",
+      "company": "Coderhouse.",
+      "description": "Desempeño el rol de tutor en la carrera de Desarrollador Full Stack, acompañando a estudiantes en su proceso de aprendizaje. Guío y apoyo a los alumnos en la comprensión de conceptos complejos, brindando feedback constructivo y revisiones detalladas de proyectos. Desarrollo materiales y recursos educativos complementarios para enriquecer la experiencia de aprendizaje. Además, coordino sesiones en vivo y talleres prácticos, fomentando la participación activa y la colaboración entre estudiantes."
+    },
+    {
+      "year": "dic. 2023 - may. 2024",
+      "title": "Desarrollador Backend Junior.",
+      "company": "RST Argentina.",
+      "description": "Como desarrollador backend participé en el diseño, desarrollo y mantenimiento de servicios y sistemas escalables. Desarrollé y mantuve API RESTful con Node.js y Nest.js para soportar aplicaciones web y servidores. Administré bases de datos relacionales y no relacionales asegurando la integridad y eficiencia de los datos. Implementé servidores seguros y escalables, realicé integraciones con microservicios y servicios externos, y optimicé el rendimiento de las aplicaciones mediante buenas prácticas de programación y pruebas exhaustivas. Colaboré con equipos multifuncionales aplicando metodologías ágiles para garantizar entregas puntuales y de alta calidad."
+    },
+    {
+      "year": "dic. 2022 - dic. 2023",
+      "title": "Desarrollador Web Freelance.",
+      "company": "Autónomo.",
+      "description": "Colaboro con diversos clientes en el desarrollo y despliegue de aplicaciones web personalizadas utilizando librerías modernas como React.js. Diseño y construyo interfaces de usuario intuitivas y responsivas, priorizando la experiencia del usuario. Implemento soluciones basadas en inteligencia artificial para optimizar procesos y mejorar la interacción con las aplicaciones. Gestiono el ciclo completo de desarrollo, desde la toma de requisitos hasta el despliegue y mantenimiento post-lanzamiento. Mantengo una comunicación constante con los clientes para garantizar la satisfacción y el cumplimiento de los objetivos de cada proyecto."
+    }
+  ],
+  "aboutme.experience.formacion": [
+    {
+      "year": "2023 - 2025",
+      "title": "Técnico Superior en Ciencia de Datos.",
+      "company": "Instituto Técnico Superior Teclab",
+      "description": "Empecé la carrera de Data Science por mi gran interés en el universo de los datos, gracias a los conocimientos de la carrera que brinda el instituto Teclab podré analizar y explorar datos, descubriendo ideas relevantes y formulando hipótesis. Utilizar herramientas especializadas para procesar datos, realizar análisis exploratorios y entrenar modelos predictivos. Además, trabajaré con grandes volúmenes de datos, aplicando lenguajes de programación específicos. Utilizaré servicios en la nube para procesar datos, entrenar modelos y generar predicciones. También gestionaré bases de datos de Big Data con tecnologías de procesamiento. Mi conjunto de habilidades incluye sólidos conocimientos matemáticos y estadísticos, que aplicaré eficazmente para la toma de decisiones ágiles y soluciones efectivas."
+    },
+    {
+      "year": "2022 - 2023",
+      "title": "Carrera Desarrollador Full Stack.",
+      "company": "Coderhouse.",
+      "description": "A través de esta carrera, he dominado el potente Stack MERN (MongoDB, Express, React.js y Node.js). Esto me ha capacitado para crear aplicaciones web modernas y escalables, desde la base de datos hasta la interfaz de usuario, utilizando tecnologías de vanguardia. En Coderhouse, el enfoque en proyectos prácticos ha sido fundamental, he tenido la oportunidad de aplicar mis conocimientos en proyectos reales, lo que me ha ayudado a consolidar mis habilidades y construir un sólido portafolio. Esta carrera me ha brindado acceso a profes expertos que me han guiado en cada paso del camino. Además, la comunidad de Coderhouse es una fuente constante de inspiración y aprendizaje compartido."
+    },
+    {
+      "year": "2015 - 2020",
+      "title": "Técnico En Electricidad.",
+      "company": "Colegio Técnico 'San José'.",
+      "description": "En el colegio técnico aprendí a instalar, reparar y mantener sistemas eléctricos, dominando conocimientos teóricos y prácticos sobre circuitos cálculo de cargas, uso de instrumentos de medición, normativas de seguridad y planos eléctricos. En la formación aprendí sobre instalaciones domiciliarias y comerciales como, en algunos casos, la electricidad industrial con sistemas de control, programación y automatización."
+    }
+  ],
+  "contact.title": "Contact",
+  "contact.description": "Do you have any questions or a project where I can add value? Don't hesitate to contact me.",
+  "contact.title.link": "Get in touch.",
+  "contact.form.name": "Name",
+  "contact.form.message": "Message...",
+  "contact.form.buttom": "Send Message",
+  "aboutme.experience": "",
+  "navbar.download": "Download CV",
+  "modal.language": "Select your language",
+  "language.spanish": "Spanish",
+  "language.english": "English",
+  "contact.name": "Name",
+  "contact.email": "Email",
+  "contact.message": "Mensaje",
+  "contact.send": "Send"
+}
