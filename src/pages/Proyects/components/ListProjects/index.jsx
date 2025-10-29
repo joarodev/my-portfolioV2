@@ -1,32 +1,19 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../CardProject";
 import SkeletonCardProjects from "../CardProject/Skeleton";
-import { projectsFirebase } from "../../../../data/firebase";
+import { useProjects } from "../../../../context/ProjectsContext";
 
 export default function ListProjects({ category }) {
-  const [proyects, setProyects] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
+  const { projects, isLoading } = useProjects();
   
-  useEffect(() => {
-        if (!category) {
-            projectsFirebase().then((resp)=>{
-                setProyects(resp)
-            })
-            .catch((error) => alert(error))
-            .finally(()=> setIsLoading(false))
-        } else {
-            proyectsCategory(category).then((resp) => {
-                setProyects(resp);
-                setIsLoading(false);
-            })
-            .finally(()=> setIsLoading(false))
-        } 
-    },[category]);
+  // Filtrar por categoría si aplica
+  const filteredProjects = category
+    ? projects.filter((p) => p.category === category)
+    : projects;
 
   return isLoading
-    ? Array.from({ length: 6 }).map((_, index) => (
-        <SkeletonCardProjects key={index} />
-      ))
-    : proyects.map((project) => <ProjectCard key={project.id} {...project} />);
+    ? Array.from({ length: 6 }).map((_, i) => <SkeletonCardProjects key={i} />)
+    : filteredProjects.map((project) => (
+        <ProjectCard key={project.id} {...project} />
+      ));
 }

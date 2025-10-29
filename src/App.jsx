@@ -1,17 +1,31 @@
 import MyRoutes from "./router";
 import Navbar from "./components/Navbar";
 import LoadingScreen from "./components/ui/LoadingScreen";
+import { ProjectsProvider, useProjects } from "./context/ProjectsContext";
+import { CertificatesProvider, useCertificates } from "./context/CertificatesContext";
 
 function App() {
   return (
-    <>
-      {/* Pantalla de carga */}
-      <LoadingScreen/>
+    <ProjectsProvider>
+      <CertificatesProvider>
+        <AppContent />
+      </CertificatesProvider>
+    </ProjectsProvider>
+  );
+}
 
-      {/* Contenido App */}
-      <MyRoutes />
+function AppContent() {
+  const { isLoading: isLoadingProjects } = useProjects();
+  const { isLoading: isLoadingCertificates } = useCertificates();
+
+  const isLoading = isLoadingProjects || isLoadingCertificates;
+
+  return (
+    <>
+      {isLoading ? <LoadingScreen /> : <MyRoutes />}
     </>
   );
 }
+
 
 export default App;

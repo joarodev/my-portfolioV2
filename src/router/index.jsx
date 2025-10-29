@@ -3,6 +3,7 @@ import Home from '../pages/Home'
 import Error404 from '../pages/404'
 import Navbar from '../components/Navbar'
 import ProjectSection from '../pages/Proyects'
+import CertificatesCRUD from '../pages/CertificatesCRUD'
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,16 @@ const router = createBrowserRouter([
     {
       path: "*",
       element: <Error404/>,
+    },
+    {
+      path: "/add-certificate",
+      element: (
+        <>
+          <Navbar/>
+          <CertificatesCRUD/>
+        </>
+      ),
+      errorElement: <Error404/>,
     }
 ])
 

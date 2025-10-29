@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, doc, getDoc, query, where} from "firebase/firestore";
+import { getFirestore, collection, getDocs, doc, getDoc, query, where, addDoc} from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_REACT_APP_FIREBASE_API_KEY,
@@ -48,4 +48,22 @@ export async function projectsFirebaseCategory(categoryUrl){
         return projects
     });
     return projectsCategory;
+}
+
+export async function certificatesFirebase(){
+    const certificatesRef = collection(db, "certificatesDB");
+    const snapshot = await getDocs(certificatesRef);
+    
+    const certificatesDB = snapshot.docs.map((elem) => {
+        let certificate = elem.data();
+        certificate.id = elem.id;
+        return certificate;
+    });
+    return certificatesDB;
+}
+
+export async function addCertificate(certificateData) {
+    const certificatesRef = collection(db, "certificatesDB");
+    const docRef = await addDoc(certificatesRef, certificateData);
+    return docRef.id;
 }

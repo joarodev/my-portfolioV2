@@ -3,6 +3,7 @@ import { CircleX, ExternalLink, Github } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "../../../../context/LanguageContext";
 import ReactMarkdown from "react-markdown";
+import ButtonGithubStar from "../../../../components/ui/Buttons/ButtonGithubStar";
 
 export default function ProjectCard({
   title,
@@ -129,6 +130,7 @@ export default function ProjectCard({
                     <Github size={16} /> {t("project.card.code")}
                   </a>
                 )}
+                <ButtonGithubStar/>
                 <button
                   onClick={() => setOpen(false)}
                   className="flex-1 flex items-center justify-center gap-2 py-2 bg-fg/10 hover:bg-fg/20 text-fg rounded-md transition-all"
