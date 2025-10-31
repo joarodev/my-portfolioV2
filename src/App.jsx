@@ -1,5 +1,4 @@
 import MyRoutes from "./router";
-import Navbar from "./components/Navbar";
 import LoadingScreen from "./components/ui/LoadingScreen";
 import { ProjectsProvider, useProjects } from "./context/ProjectsContext";
 import { CertificatesProvider, useCertificates } from "./context/CertificatesContext";

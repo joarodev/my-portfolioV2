@@ -21,9 +21,9 @@ const ThemeSelector = () => {
       {/* Botón */}
       <button
         onClick={() => setIsOpen(true)}
-        className="flex items-center gap-2 border border-primary/40 rounded-md px-3 py-1 text-sm hover:bg-primary hover:text-bg transition"
+        className="flex items-center gap-2  px-3 py-1 text-sm rounded-md hover:bg-primary/20 transition"
       >
-        <Paintbrush size={20} />
+        <Paintbrush size={30} />
       </button>
 
       {/* Modal */}

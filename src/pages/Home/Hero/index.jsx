@@ -24,7 +24,7 @@ export default function HeroInfo({
   // };
 
   return (
-    <header className="relative sm:h-screen sm:overflow-hidden bg-bg text-fg from-slate-900 via-slate-800 to-slate-900">
+    <header className="relative sm:h-screen sm:overflow-hidden bg-bg text-fg from-slate-900 via-slate-800 to-slate-900 z-0">
       <GridBackground>
         <BgPointSidesV2>
         <div className="mx-auto px-6 py-20 flex flex-col sm:flex-row items-center gap-8 z-10 md:max-w-7xl">

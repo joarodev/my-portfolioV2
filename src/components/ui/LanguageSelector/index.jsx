@@ -10,7 +10,7 @@ export default function LanguageSelector() {
     <>
       <button
         onClick={() => setShowLangModal(true)}
-        className="flex items-center gap-2 border border-primary/40 rounded-md px-3 py-1 text-sm hover:bg-primary hover:text-bg transition"
+        className="flex items-center gap-2 px-3 py-1 text-sm p-2 rounded-md hover:bg-primary/20  hover:text-bg transition"
       >
         <img
           src={
@@ -19,7 +19,7 @@ export default function LanguageSelector() {
               : "https://flagcdn.com/w20/us.png"
           }
           alt="flag"
-          className="w-5 h-3 rounded-sm"
+          className="w-8 h-5"
         />
       </button>
       <LanguageModal

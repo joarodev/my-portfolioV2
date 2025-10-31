@@ -1,9 +1,10 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from '../pages/Home'
 import Error404 from '../pages/404'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/ui/Navbar'
 import ProjectSection from '../pages/Proyects'
 import CertificatesCRUD from '../pages/CertificatesCRUD'
+import Resume from '../pages/Resume'
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,16 @@ const router = createBrowserRouter([
         <>
           <Navbar/>
           <ProjectSection/>
+        </>
+      ),
+      errorElement: <Error404/>,
+    },
+    {
+      path: "/resume",
+      element: (
+        <>
+          <Navbar/>
+          <Resume/>
         </>
       ),
       errorElement: <Error404/>,
