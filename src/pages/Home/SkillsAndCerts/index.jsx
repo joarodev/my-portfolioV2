@@ -3,6 +3,7 @@ import { useLanguage } from "../../../context/LanguageContext";
 import { Award, BrainCircuit, Wrench } from "lucide-react";
 import SkillCard from "./components/CardSkill";
 import ListCertifications from "./components/ListCertifications";
+import ButtonSlide from "../../../components/ui/Buttons/ButtonSlide";
 
 
 export default function SkillsAndCerts() {

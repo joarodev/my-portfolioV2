@@ -24,8 +24,8 @@ const MobileMenu = ({ isOpen, onClose }) => {
             <ThemeSelector />
           </div>
         </div>
-        <Link to="/about" className="text-xl" onClick={onClose}>
-          {t("navbar.about")}
+        <Link to="/contact" className="text-xl" onClick={onClose}>
+          {t("navbar.contact")}
         </Link>
         <SocialMediaButtons />
         <div className="mt-4 flex flex-col items-center gap-2">

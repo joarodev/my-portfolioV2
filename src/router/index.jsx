@@ -5,6 +5,7 @@ import Navbar from '../components/ui/Navbar'
 import ProjectSection from '../pages/Proyects'
 import CertificatesCRUD from '../pages/CertificatesCRUD'
 import Resume from '../pages/Resume'
+import Contact from '../pages/Contact'
 
 const router = createBrowserRouter([
     {
@@ -38,18 +39,18 @@ const router = createBrowserRouter([
       errorElement: <Error404/>,
     },
     {
-      path: "/about",
-      element: <div>About</div>,
-      errorElement: <Error404/>,
-    },
-    {
       path: "/blog",
       element: <div>blog</div>,
       errorElement: <Error404/>,
     },
     {
       path: "/contact",
-      element: <div>Contacto</div>,
+      element: (
+        <>
+          <Navbar/>
+          <Contact/>
+        </>
+      ),
       errorElement: <Error404/>,
     },
     {

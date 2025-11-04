@@ -1,28 +1,38 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Loader, Check, AlertTriangle } from "lucide-react";
 import { useLanguage } from "../../../context/LanguageContext";
-import BgBottom from "../../../components/Backgrounds/BgBottom";
-import BgPointSidesV2 from "../../../components/Backgrounds/BgPointSidesV2";
 import BgFadeBottom from "../../../components/Backgrounds/BgFadeBottom";
-import SocialMediaButtons from "../../../components/ui/Buttons/SocialMediaButtons";
 
 export default function ContactSection() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
-
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [status, setStatus] = useState("idle"); // idle, loading, success, error
   const { t } = useLanguage();
 
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Formulario enviado:", form);
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 2000);
-    setForm({ name: "", email: "", message: "" });
+    setStatus("loading");
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch (error) {
+      setStatus("error");
+    }
   };
 
   // Variants de animación
@@ -130,7 +140,7 @@ export default function ContactSection() {
               transition={{ duration: 0.3 }}
               type="text"
               name="name"
-              value={form.name}
+              value={formData.name}
               onChange={handleChange}
               placeholder={t("contact.form.name")}
               className="w-full px-4 py-3 rounded-md bg-transparent border border-secondary/20 focus:border-secondary outline-none transition-colors"
@@ -142,9 +152,9 @@ export default function ContactSection() {
               transition={{ duration: 0.3 }}
               type="email"
               name="email"
-              value={form.email}
+              value={formData.email}
               onChange={handleChange}
-              placeholder="Email"
+              placeholder={t("contact.form.email")}
               className="w-full px-4 py-3 rounded-md bg-transparent border border-secondary/20 focus:border-secondary outline-none transition-colors"
               required
             />
@@ -153,7 +163,7 @@ export default function ContactSection() {
               whileFocus={{ scale: 1.02, borderColor: "#00FFFF" }}
               transition={{ duration: 0.3 }}
               name="message"
-              value={form.message}
+              value={formData.message}
               onChange={handleChange}
               rows="5"
               placeholder={t("contact.form.message")}
@@ -165,12 +175,14 @@ export default function ContactSection() {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               type="submit"
-              className="w-full bg-secondary/70 text-bg2 font-semibold py-3 rounded-md hover:bg-secondary/60 transition-all shadow-md hover:shadow-lg"
+              disabled={status === 'loading'}
+              className="w-full bg-secondary/70 text-bg2 font-semibold py-3 rounded-md hover:bg-secondary/60 transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
             >
-              {submitted
-                ? t("contact.form.buttom.submitted")
-                : t("contact.form.buttom")}
+              {status === 'loading' && <Loader className="animate-spin" size={20} />}
+              {status !== 'loading' && t("contact.form.buttom")}
             </motion.button>
+            {status === 'success' && <p className="text-green-500 mt-4 flex items-center gap-2"><Check/> {t("contact.form.success")}</p>}
+            {status === 'error' && <p className="text-red-500 mt-4 flex items-center gap-2"><AlertTriangle/> {t("contact.form.error")}</p>}
           </motion.form>
         </div>
       </section>

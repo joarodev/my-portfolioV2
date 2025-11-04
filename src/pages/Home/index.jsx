@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import SkillsAndCerts from "./SkillsAndCerts";
 import Contact from "./Contact";
 import { useLanguage } from "../../context/LanguageContext";
+import ProjectSection from "./Project";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       />
         <AboutMe />
         <SkillsAndCerts />
+        <ProjectSection/>
         <Contact />
     </>
   );

@@ -30,9 +30,6 @@ const Navbar = () => {
             <Link to="/" className="hover:font-bold duration-150 hover:text-secondary">
               {t("navbar.home")}
             </Link>
-            <Link to="/about" className="hover:font-bold duration-150 hover:text-secondary">
-              {t("navbar.about")}
-            </Link>
             <Link to="/projects" className="hover:font-bold duration-150 hover:text-secondary">
               {t("navbar.projects")}
             </Link>
@@ -51,8 +48,8 @@ const Navbar = () => {
             <Link to="/projects" className="hover:font-bold duration-150">
               {t("navbar.projects")}
             </Link>
-            <Link to="/contact" className="hover:font-bold duration-150">
-              {t("navbar.contact")}
+            <Link to="/resume" className="hover:font-bold duration-150 hover:text-secondary">
+              {t("navbar.resume")}
             </Link>
           </div>
 
