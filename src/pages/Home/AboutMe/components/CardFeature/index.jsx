@@ -1,12 +1,13 @@
-import React from 'react'
-import { cn } from '../../../../../lib/utils'
+import React from "react";
+import { cn } from "../../../../../lib/utils";
 
 export default function CardFeature({ icon: Icon, title, description }) {
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center text-center p-6 mx-3 my-3 rounded-2xl border border-fg/10",
-        "bg-bg/50 hover:border-primary/50 hover:bg-bg/70 transition-all duration-300"
+        "flex flex-col items-center justify-center text-center p-6 mx-3 my-3 rounded-2xl border border-secondary/50",
+        "bg-bg/50 hover:border-primary/50 hover:bg-bg/70 transition-all duration-300",
+        "h-[250px] w-full mx-4 flex-1"
       )}
     >
       {/* Ícono */}
@@ -20,5 +21,5 @@ export default function CardFeature({ icon: Icon, title, description }) {
       {/* Descripción */}
       <p className="text-sm text-fg/70 leading-relaxed">{description}</p>
     </div>
-  )
+  );
 }

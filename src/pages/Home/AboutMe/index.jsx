@@ -22,7 +22,7 @@ export default function AboutMe() {
           {t("aboutme.description")}
         </p>
       </div>
-      <div className="flex justify-between items-center py-5 mx-3 w-full flex-col md:flex-row md:max-w-7xl">
+      <div className="flex justify-center items-center py-5 mx-3 w-full flex-col md:flex-row md:max-w-7xl">
         <CardFeature
           icon={Brain}
           title={t("aboutme.card.brain.title")}

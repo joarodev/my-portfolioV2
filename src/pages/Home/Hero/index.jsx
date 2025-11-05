@@ -34,7 +34,7 @@ export default function HeroInfo({
 
             <p className="mt-6 regular-text">{t("hero.description")}</p>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div  className="mt-6 flex flex-wrap gap-3">
               <ButtonSlide text={t("hero.button.proyects")} path="/projects" />
               <ButtonClasic text={t("hero.button.resume")} path="/resume" />
               <SocialMediaButtons/>

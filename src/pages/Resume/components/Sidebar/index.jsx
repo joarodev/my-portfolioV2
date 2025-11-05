@@ -4,22 +4,11 @@ import { useLanguage } from "../../../../context/LanguageContext";
 import profileImg from "../../../../assets/images/joarod_profile.jpg";
 import { Mail, Phone, Linkedin, Github, MapPin } from "lucide-react";
 
-const softSkills = [
-  "Pensamiento Creativo",
-  "Adaptabilidad",
-  "Aprendizaje continuo",
-  "Colaboración",
-  "Gestión de tiempo",
-  "Asertividad",
-  "Innovación",
-  "Resiliencia",
-  "Flexibilidad",
-  "Organización",
-];
 
 export default function Sidebar() {
   const { t } = useLanguage();
-
+  const softSkills = [t("skills.soft.skill1"), t("skills.soft.skill2"), t("skills.soft.skill3"), t("skills.soft.skill4"), t("skills.soft.skill5"), t("skills.soft.skill6"),t("skills.soft.skill7"),t("skills.soft.skill8"),t("skills.soft.skill9"),t("skills.soft.skill10")];
+  
   return (
     <motion.aside
       initial={{ x: -100, opacity: 0 }}
@@ -44,7 +33,7 @@ export default function Sidebar() {
         <ul className="space-y-3 text-sm">
           <li className="flex items-center gap-3">
             <Mail size={18} className="text-secondary" />
-            <span>joaquinrodriguez0801@gmail.com</span>
+            <span>joaquinrodriguez.dev@gmail.com</span>
           </li>
           <li className="flex items-center gap-3">
             <MapPin size={18} className="text-secondary" />

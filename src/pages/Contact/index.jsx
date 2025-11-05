@@ -93,7 +93,7 @@ export default function Contact() {
                 <Mail size={24} className="text-primary mt-1" />
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <a href="mailto:joaquinrodriguez0801@gmail.com" className="text-fg/80 hover:text-primary transition-colors">joaquinrodriguez0801@gmail.com</a>
+                  <a href="mailto:joaquinrodriguez.dev@gmail.com" className="text-fg/80 hover:text-primary transition-colors">joaquinrodriguez.dev@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 rounded-lg">
@@ -107,7 +107,7 @@ export default function Contact() {
                 <Linkedin size={24} className="text-primary mt-1" />
                 <div>
                   <h4 className="font-semibold">LinkedIn</h4>
-                  <a href="https://www.linkedin.com/in/joaquindev/" target="_blank" rel="noopener noreferrer" className="text-fg/80 hover:text-primary transition-colors">linkedin.com/in/joaquindev</a>
+                  <a href="https://www.linkedin.com/in/joaquinrodriguez-dev/" target="_blank" rel="noopener noreferrer" className="text-fg/80 hover:text-primary transition-colors">linkedin.com/in/joaquinrodriguez-dev</a>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 rounded-lg">

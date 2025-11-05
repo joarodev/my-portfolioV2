@@ -52,7 +52,7 @@ export default function ProjectCard({
                 href={deploy}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 text-center py-2 bg-secondary/40 hover:bg-secondary/20 text-fg text-sm rounded-md transition-all"
+                className="flex-1 text-center py-2 bg-secondary/10 border border-secondary hover:bg-secondary/20 text-fg text-sm rounded-md transition-all"
               >
                 {t("project.card.demo")}
               </a>
@@ -62,14 +62,14 @@ export default function ProjectCard({
                 href={github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 text-center py-2 bg-primary text-bg text-sm rounded-md hover:bg-primary-hover transition-all"
+                className="flex-1 text-center py-2 bg-primary/30 border border-secondary text-fg text-sm rounded-md hover:bg-primary-hover transition-all"
               >
                 {t("project.card.code")}
               </a>
             )}
             <button
               onClick={() => setOpen(true)}
-              className="flex-1 text-center py-2 bg-fg/20 hover:bg-fg/10 text-fg text-sm rounded-md transition-all"
+              className="flex-1 text-center py-2 bg-fg/20 border border-secondary hover:bg-fg/10 text-fg text-sm rounded-md transition-all"
             >
               {t("project.card.more")}
             </button>
@@ -130,7 +130,6 @@ export default function ProjectCard({
                     <Github size={16} /> {t("project.card.code")}
                   </a>
                 )}
-                <ButtonGithubStar/>
                 <button
                   onClick={() => setOpen(false)}
                   className="flex-1 flex items-center justify-center gap-2 py-2 bg-fg/10 hover:bg-fg/20 text-fg rounded-md transition-all"

@@ -11,7 +11,7 @@
   "navbar.tema.JoaRod": "JoaRod",
   "navbar.language": "Select a language",
   "hero.name": "Joaquin Rodríguez",
-  "hero.profession": ".NET Backend Developer & Data Scientist",
+  "hero.profession": "Data Science Technician & .NET/NEST Backend Developer",
   "hero.description": "I am a Data Science Technician with a strong background in data analysis, modeling, and management, graduated from Teclab Instituto Técnico Superior in partnership with Amazon Web Services (AWS). My approach combines data analytics with backend development, leveraging the .NET, Azure, and Node.js ecosystems to build intelligent, scalable, and automation-driven solutions. I have experience in Machine Learning, ETL processes, NLP, and data visualization, as well as skills in Docker, cloud computing, and relational and non-relational databases. My professional goal is to integrate data science with software development to create tools that turn information into strategic decisions.",
   "hero.button.proyects": "Projects",
   "hero.button.resume": "Resume",
@@ -19,7 +19,7 @@
   "aboutme.description": "I am passionate about data analysis and artificial intelligence with experience in creating innovative solutions to solve complex problems. I specialize in developing predictive models, statistical analysis, and data visualization to help companies make informed decisions. My goal is to continue growing professionally and contribute to the advancement of data science by applying advanced techniques and continuous learning.",
   "aboutme.experience.title": "Which experience do you want to check?",
   "aboutme.card.brain.title": "Critical Thinking",
-  "aboutme.card.brain.description": "",
+  "aboutme.card.brain.description": "Logical reasoning and critical thinking in complex contexts.",
   "aboutme.card.chart.title": "Analyst",
   "aboutme.card.chart.description": "I analyze data from multiple angles to identify significant patterns and trends.",
   "aboutme.card.lighbulb.title": "Curiosity",
@@ -28,48 +28,48 @@
   "aboutme.experience.button.academic": "Education",
   "aboutme.experience.profesional": [
     {
-      "year": "oct. 2024 - Presente",
-      "title": "Desarrollador Backend",
+      "year": "Oct. 2024 - Present",
+      "title": "Backend Developer",
       "company": "Micracel / Microtrack",
-      "description": "Desarrollo y mantengo aplicaciones backend aplicando principios de arquitectura limpia y buenas prácticas de desarrollo. Gestiono y optimizo bases de datos SQL Server, realizando modelado, optimización de consultas y administración de índices para mejorar el rendimiento. Implemento servicios en la nube con Azure y realizo integraciones de APIs y servicios web, garantizando la interoperabilidad y escalabilidad de las soluciones. Aseguro el cumplimiento de estándares de seguridad mediante control de acceso, cifrado y auditorías. Colaboro con equipos multidisciplinarios en la planificación, análisis técnico y despliegue de software en entornos productivos."
+      "description": "I develop and maintain backend applications applying clean architecture principles and best development practices. I manage and optimize SQL Server databases, performing modeling, query optimization, and index administration to improve performance. I implement cloud services with Azure and carry out integrations of APIs and web services, ensuring the interoperability and scalability of the solutions. I ensure compliance with security standards through access control, encryption, and audits. I collaborate with multidisciplinary teams in the planning, technical analysis, and deployment of software in production environments."
     },
     {
-      "year": "oct. 2023 - sept. 2025",
-      "title": "Tutor de la Carrera Desarrollador Full Stack.",
+      "year": "Oct. 2023 - Sept. 2025",
+      "title": "Full Stack Developer Career Tutor.",
       "company": "Coderhouse.",
-      "description": "Desempeño el rol de tutor en la carrera de Desarrollador Full Stack, acompañando a estudiantes en su proceso de aprendizaje. Guío y apoyo a los alumnos en la comprensión de conceptos complejos, brindando feedback constructivo y revisiones detalladas de proyectos. Desarrollo materiales y recursos educativos complementarios para enriquecer la experiencia de aprendizaje. Además, coordino sesiones en vivo y talleres prácticos, fomentando la participación activa y la colaboración entre estudiantes."
+      "description": "I serve as a tutor for the Full Stack Developer career, accompanying students in their learning process. I guide and support students in understanding complex concepts, providing constructive feedback and detailed project reviews. I develop complementary educational materials and resources to enrich the learning experience. Additionally, I coordinate live sessions and practical workshops, promoting active participation and collaboration among students."
     },
     {
-      "year": "dic. 2023 - may. 2024",
-      "title": "Desarrollador Backend Junior.",
+      "year": "Dec. 2023 - May 2024",
+      "title": "Junior Backend Developer.",
       "company": "RST Argentina.",
-      "description": "Como desarrollador backend participé en el diseño, desarrollo y mantenimiento de servicios y sistemas escalables. Desarrollé y mantuve API RESTful con Node.js y Nest.js para soportar aplicaciones web y servidores. Administré bases de datos relacionales y no relacionales asegurando la integridad y eficiencia de los datos. Implementé servidores seguros y escalables, realicé integraciones con microservicios y servicios externos, y optimicé el rendimiento de las aplicaciones mediante buenas prácticas de programación y pruebas exhaustivas. Colaboré con equipos multifuncionales aplicando metodologías ágiles para garantizar entregas puntuales y de alta calidad."
+      "description": "As a backend developer, I participated in the design, development, and maintenance of scalable services and systems. I developed and maintained RESTful APIs with Node.js and Nest.js to support web applications and servers. I managed relational and non-relational databases, ensuring data integrity and efficiency. I implemented secure and scalable servers, performed integrations with microservices and external services, and optimized application performance through best programming practices and exhaustive testing. I collaborated with cross-functional teams applying agile methodologies to ensure timely and high-quality deliveries."
     },
     {
-      "year": "dic. 2022 - dic. 2023",
-      "title": "Desarrollador Web Freelance.",
-      "company": "Autónomo.",
-      "description": "Colaboro con diversos clientes en el desarrollo y despliegue de aplicaciones web personalizadas utilizando librerías modernas como React.js. Diseño y construyo interfaces de usuario intuitivas y responsivas, priorizando la experiencia del usuario. Implemento soluciones basadas en inteligencia artificial para optimizar procesos y mejorar la interacción con las aplicaciones. Gestiono el ciclo completo de desarrollo, desde la toma de requisitos hasta el despliegue y mantenimiento post-lanzamiento. Mantengo una comunicación constante con los clientes para garantizar la satisfacción y el cumplimiento de los objetivos de cada proyecto."
+      "year": "Dec. 2022 - Dec. 2023",
+      "title": "Freelance Web Developer.",
+      "company": "Freelance.",
+      "description": "I collaborate with various clients in the development and deployment of custom web applications using modern libraries like React.js. I design and build intuitive and responsive user interfaces, prioritizing the user experience. I implement solutions based on artificial intelligence to optimize processes and improve interaction with applications. I manage the complete development cycle, from requirements gathering to deployment and post-launch maintenance. I maintain constant communication with clients to ensure satisfaction and the achievement of each project's objectives."
     }
   ],
   "aboutme.experience.formacion": [
     {
       "year": "2023 - 2025",
-      "title": "Técnico Superior en Ciencia de Datos.",
-      "company": "Instituto Técnico Superior Teclab",
-      "description": "Empecé la carrera de Data Science por mi gran interés en el universo de los datos, gracias a los conocimientos de la carrera que brinda el instituto Teclab podré analizar y explorar datos, descubriendo ideas relevantes y formulando hipótesis. Utilizar herramientas especializadas para procesar datos, realizar análisis exploratorios y entrenar modelos predictivos. Además, trabajaré con grandes volúmenes de datos, aplicando lenguajes de programación específicos. Utilizaré servicios en la nube para procesar datos, entrenar modelos y generar predicciones. También gestionaré bases de datos de Big Data con tecnologías de procesamiento. Mi conjunto de habilidades incluye sólidos conocimientos matemáticos y estadísticos, que aplicaré eficazmente para la toma de decisiones ágiles y soluciones efectivas."
+      "title": "Higher Technician in Data Science.",
+      "company": "Teclab Higher Technical Institute",
+      "description": "I started the Data Science career due to my great interest in the world of data. Thanks to the knowledge provided by the Teclab institute's program, I will be able to analyze and explore data, discovering relevant insights and formulating hypotheses. I will use specialized tools to process data, perform exploratory analysis, and train predictive models. Additionally, I will work with large volumes of data, applying specific programming languages. I will use cloud services to process data, train models, and generate predictions. I will also manage Big Data databases with processing technologies. My skill set includes solid mathematical and statistical knowledge, which I will apply effectively for agile decision-making and effective solutions."
     },
     {
       "year": "2022 - 2023",
-      "title": "Carrera Desarrollador Full Stack.",
+      "title": "Full Stack Developer Career.",
       "company": "Coderhouse.",
-      "description": "A través de esta carrera, he dominado el potente Stack MERN (MongoDB, Express, React.js y Node.js). Esto me ha capacitado para crear aplicaciones web modernas y escalables, desde la base de datos hasta la interfaz de usuario, utilizando tecnologías de vanguardia. En Coderhouse, el enfoque en proyectos prácticos ha sido fundamental, he tenido la oportunidad de aplicar mis conocimientos en proyectos reales, lo que me ha ayudado a consolidar mis habilidades y construir un sólido portafolio. Esta carrera me ha brindado acceso a profes expertos que me han guiado en cada paso del camino. Además, la comunidad de Coderhouse es una fuente constante de inspiración y aprendizaje compartido."
+      "description": "Through this career, I have mastered the powerful MERN Stack (MongoDB, Express, React.js, and Node.js). This has enabled me to create modern and scalable web applications, from the database to the user interface, using cutting-edge technologies. At Coderhouse, the focus on practical projects has been fundamental; I have had the opportunity to apply my knowledge in real projects, which has helped me consolidate my skills and build a solid portfolio. This career has given me access to expert professionals who have guided me every step of the way. Furthermore, the Coderhouse community is a constant source of inspiration and shared learning."
     },
     {
       "year": "2015 - 2020",
-      "title": "Técnico En Electricidad.",
-      "company": "Colegio Técnico 'San José'.",
-      "description": "En el colegio técnico aprendí a instalar, reparar y mantener sistemas eléctricos, dominando conocimientos teóricos y prácticos sobre circuitos cálculo de cargas, uso de instrumentos de medición, normativas de seguridad y planos eléctricos. En la formación aprendí sobre instalaciones domiciliarias y comerciales como, en algunos casos, la electricidad industrial con sistemas de control, programación y automatización."
+      "title": "Technician in Electricity.",
+      "company": "Technical College 'San José'.",
+      "description": "At the technical college, I learned to install, repair, and maintain electrical systems, mastering theoretical and practical knowledge of circuits, load calculations, use of measuring instruments, safety regulations, and electrical plans. In the training, I learned about residential and commercial installations, as well as, in some cases, industrial electricity with control, programming, and automation systems."
     }
   ],
   "contact.title": "Contact",
@@ -81,8 +81,9 @@
   "contact.form.buttom": "Send Message",
   "contact.form.success": "Message sent successfully!",
   "contact.form.error": "There was an error sending the message. Please try again.",
+  "contact.form.buttom.submitted": "Sent!",
   "project.title": "Projects",
-  "project.subtitle": "My project collection",
+  "project.subtitle": "My collection of projects, a glimpse into my professional work...",
   "project.filter.title": "Filter Projects",
   "project.filter.searchPlaceholder": "Search by name...",
   "project.filter.filterBy": "Filter by",
@@ -110,7 +111,7 @@
   "skills.soft.skill9": "Flexibility",
   "skills.soft.skill10": "Organization",
   "skills.certs.title": "Certifications",
-  "project.button.text" : "Ver todos mis proyectos...",
+  "project.button.text": "View all my projects...",
   "404.title": "Page not found",
   "404.description": "Back to home",
   "aboutme.experience": "",
@@ -120,6 +121,28 @@
   "language.english": "English",
   "contact.name": "Name",
   "contact.email": "Email",
-  "contact.message": "Mensaje",
-  "contact.send": "Send"
+  "contact.message": "Message",
+  "contact.send": "Send",
+  "tour.home.title": "Home",
+  "tour.home.description": "This is the main page, where you can find an introduction about me.",
+  "tour.projects.title": "Projects",
+  "tour.projects.description": "Here you can see all my projects. Check them out!",
+  "tour.contact.title": "Contact",
+  "tour.contact.description": "If you want to contact me, this is the section to go to.",
+  "tour.resume.title": "Resume",
+  "tour.resume.description": "Here you can find my detailed resume.",
+  "tour.settings.title": "Settings",
+  "tour.settings.description": "Here you can change the language and theme of the website.",
+  "tour.hero_title.title": "Hello!",
+  "tour.hero_title.description": "This is my name and my profession.",
+  "tour.hero_buttons.title": "Action Buttons",
+  "tour.hero_buttons.description": "These buttons will take you to my projects and my resume.",
+  "tour.social_buttons.title": "Contact",
+  "tour.social_buttons.description": "These buttons will direct you to my contact methods",
+  "tour.filter_button.title": "Filter Projects",
+  "tour.filter_button.description": "Use this button to filter projects by technology, name, etc.",
+  "tour.modal.title": "Welcome!",
+  "tour.modal.description": "Would you like to take a tour to learn about the site's features?",
+  "tour.modal.start": "Start Tour",
+  "tour.modal.skip": "Skip"
 }

@@ -17,26 +17,28 @@ const MobileMenu = ({ isOpen, onClose }) => {
           <X size={24} />
         </button>
       </div>
-      <div className="flex flex-col items-center gap-6 mt-8">
-        <div className="w-full flex justify-center pt-6">
-          <div className="flex items-center gap-4">
-            <LanguageSelector />
-            <ThemeSelector />
-          </div>
+      <div className="flex h-full w-full flex-col items-center gap-6 mt-8 absolute bottom-0">
+        <div id="mobile-settings" className="w-full flex mt-8 justify-center pt-6">
+          <SocialMediaButtons />
         </div>
-        <Link to="/contact" className="text-xl" onClick={onClose}>
+        <Link id="mobile-contact-link" to="/contact" className="text-xl subtitle-text text-fg hover:text-secondary" onClick={onClose}>
           {t("navbar.contact")}
         </Link>
-        <SocialMediaButtons />
-        <div className="mt-4 flex flex-col items-center gap-2">
+        <div id="mobile-social-buttons absolute bottom-0">
+        </div>
+        {/* <div className="mt-4 flex flex-col items-center gap-2">
           <button className="w-full text-center px-3 py-1 text-sm hover:bg-primary/20 rounded-md">
             Generic Action 1
           </button>
           <button className="w-full text-center px-3 py-1 text-sm hover:bg-primary/20 rounded-md">
             Generic Action 2
           </button>
-        </div>
+        </div> */}
       </div>
+      <div className="flex justify-center mb-5 items-center gap-4 absolute bottom-0 w-full">
+            <LanguageSelector />
+            <ThemeSelector />
+          </div>
     </div>
   );
 };

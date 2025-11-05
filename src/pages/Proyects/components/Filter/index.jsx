@@ -130,13 +130,13 @@ export default function Filter({
             <div className="flex gap-3 mt-8">
               <button
                 onClick={handleReset}
-                className="flex-1 py-2 bg-fg/10 hover:bg-fg/20 text-fg rounded-md transition-all"
+                className="flex-1 py-2 border border-primary hover:bg-fg/20 text-fg rounded-md transition-all"
               >
                 {t("project.filter.reset")}
               </button>
               <button
                 onClick={handleFilter}
-                className="flex-1 py-2 bg-primary text-bg rounded-md hover:bg-primary-hover transition-all"
+                className="flex-1 py-2  text-fg border border-secondary rounded-md hover:bg-primary-hover transition-all"
               >
                 {t("project.filter.apply")}
               </button>
