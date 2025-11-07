@@ -11,14 +11,14 @@ const MobileMenu = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-bg z-50 md:hidden">
+    <div className="fixed inset-0 bg-bg z-50 md:hidden flex flex-col">
       <div className="flex justify-end p-4">
-        <button onClick={onClose}>
+        <button onClick={onClose} className="z-10">
           <X size={24} />
         </button>
       </div>
-      <div className="flex h-full w-full flex-col items-center gap-6 mt-8 absolute bottom-0">
-        <div id="mobile-settings" className="w-full flex mt-8 justify-center pt-6">
+      <div className="flex flex-1 flex-col items-center justify-center gap-6 -mt-12">
+        <div id="mobile-settings" className="w-full flex justify-center pt-6">
           <SocialMediaButtons />
         </div>
         <Link id="mobile-contact-link" to="/contact" className="text-xl subtitle-text text-fg hover:text-secondary" onClick={onClose}>
@@ -35,7 +35,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
           </button>
         </div> */}
       </div>
-      <div className="flex justify-center mb-5 items-center gap-4 absolute bottom-0 w-full">
+      <div className="flex justify-center mb-5 items-center gap-4 w-full">
             <LanguageSelector />
             <ThemeSelector />
           </div>

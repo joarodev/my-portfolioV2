@@ -18,7 +18,7 @@ export default function ExperienceSection() {
       </h2>
 
       {/* Botones */}
-      <div className="flex gap-3 mb-12">
+      <div className="relative z-10 flex gap-3 mb-12">
         <button
           onClick={() => setSelected("profesional")}
           className={cn(

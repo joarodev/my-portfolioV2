@@ -82,11 +82,6 @@ const Navbar = () => {
                   <LanguageSelector />
                   <ThemeSelector />
                 </div>
-                <div>
-                  <button className="w-full text-left px-3 py-1 text-sm hover:bg-primary/20 rounded-md">
-                    Generic Action 2
-                  </button>
-                </div>
               </div>
             </div>
           </div>
