@@ -3,6 +3,8 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
+  console.log("🔍 RESEND_API_KEY loaded:", !!process.env.RESEND_API_KEY);
+
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
@@ -18,21 +20,25 @@ export default async function handler(req, res) {
       from: 'onboarding@resend.dev',
       to: ['joaquinrodriguez.dev@gmail.com'],
       subject: `Nuevo mensaje de ${name} desde portfolio`,
-      react: `
-        <h1>New message from your portfolio contact form</h1>
-        <p><strong>Name:</strong> ${name}</p>
+      html: `
+        <h1>Nuevo mensaje desde el portfolio</h1>
+        <p><strong>Nombre:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
+        <p><strong>Mensaje:</strong></p>
         <p>${message}</p>
       `,
     });
 
     if (error) {
+      console.error("❌ Error sending email:", error);
       return res.status(400).json({ message: 'Error sending email', error });
     }
 
-    res.status(200).json({ message: 'Email sent successfully', data });
+    console.log("✅ Email sent:", data);
+    return res.status(200).json({ message: 'Email sent successfully', data });
+
   } catch (error) {
-    res.status(500).json({ message: 'Internal Server Error', error });
+    console.error("🔥 Internal Server Error:", error);
+    return res.status(500).json({ message: 'Internal Server Error', error });
   }
 }
