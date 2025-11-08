@@ -57,16 +57,16 @@ const router = createBrowserRouter([
       path: "*",
       element: <Error404/>,
     },
-    {
-      path: "/add-certificate",
-      element: (
-        <>
-          <Navbar/>
-          <CertificatesCRUD/>
-        </>
-      ),
-      errorElement: <Error404/>,
-    }
+    // {
+    //   path: "/add-certificate",
+    //   element: (
+    //     <>
+    //       <Navbar/>
+    //       <CertificatesCRUD/>
+    //     </>
+    //   ),
+    //   errorElement: <Error404/>,
+    // }
 ])
 
 function MyRoutes() {
