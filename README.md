@@ -1,16 +1,16 @@
-# Portafolio de [Tu Nombre]
+# Portafolio de Joaquin Rodriguez
 
-¡Hola! Soy [Tu Nombre], un apasionado desarrollador de software con experiencia en la creación de aplicaciones web modernas y atractivas. Este portafolio es una muestra de mis habilidades y proyectos, construido con tecnologías de vanguardia para ofrecer una experiencia de usuario fluida y dinámica.
+¡Hola! Soy Joaquin, un apasionado desarrollador de software con experiencia en la creación de aplicaciones web modernas y atractivas. Este portafolio es una muestra de mis habilidades y proyectos, construido con tecnologías de vanguardia para ofrecer una experiencia de usuario fluida y dinámica.
 
 ## Sobre Mí
 
-Soy un profesional proactivo y orientado a resultados, siempre en busca de nuevos desafíos que me permitan crecer y aprender. Me especializo en el desarrollo frontend, pero también tengo conocimientos en backend, lo que me permite tener una visión integral del ciclo de vida de un proyecto.
+Soy un profesional proactivo y orientado a resultados, siempre en busca de nuevos desafíos que me permitan crecer y aprender. Me especializo en el desarrollo backend, pero también tengo conocimientos en frontend, lo que me permite tener una visión integral del ciclo de vida de un proyecto.
 
 **Habilidades Principales:**
 
-- **Lenguajes:** JavaScript, TypeScript, HTML5, CSS3
-- **Frameworks y Librerías:** React, Vite, Tailwind CSS, Motion
-- **Herramientas:** Git, Firebase, Resend
+- **Lenguajes:** C#, Typescript, Javascript, Python.
+- **Frameworks y Librerías:** .NET Framework, Nest.js, React, Vite, Tailwind CSS, Motion
+- **Herramientas:** Git, Azure, AWS, Docker, etc.
 
 ## Arquitectura del Proyecto
 
@@ -27,7 +27,8 @@ Este portafolio está construido con una arquitectura modular y escalable, sigui
   - **`lib/`**: Utilidades y funciones auxiliares.
   - **`pages/`**: Componentes que representan las diferentes páginas de la aplicación.
   - **`router/`**: Configuración de las rutas de la aplicación con React Router.
-  - **`utils/`**: Funciones de utilidad específicas, como el envío de correos.
+- **`api/`**: Contiene las consultas HTTP.
+  - **`send-email/`**: Archivo que conecta con la api-key de resend para enviar los correos.
 
 ## Cómo Usar como Plantilla
 
@@ -35,7 +36,7 @@ Puedes utilizar este portafolio como base para crear el tuyo. Sigue estos pasos:
 
 1. **Clona el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/joarodev/my-portfolioV2
    ```
 
 2. **Instala las Dependencias:**
@@ -56,5 +57,3 @@ Puedes utilizar este portafolio como base para crear el tuyo. Sigue estos pasos:
 ¡Y listo! Ahora tienes una base sólida para construir tu propio portafolio.
 
 ---
-
-*Este README fue generado por Cline, tu asistente de desarrollo de software.*
