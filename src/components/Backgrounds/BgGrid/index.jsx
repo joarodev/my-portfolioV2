@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import "./bgGrid.css";
+import "./BgGrid.css";
  
 export function GridBackground({ children }) {
   return (
