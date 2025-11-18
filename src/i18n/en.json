@@ -144,5 +144,8 @@
   "tour.modal.title": "Welcome!",
   "tour.modal.description": "Would you like to take a tour to learn about the site's features?",
   "tour.modal.start": "Start Tour",
-  "tour.modal.skip": "Skip"
+  "tour.modal.skip": "Skip",
+  "agent.modal.title": "Enter your API Key",
+  "agent.modal.selector.text": "Select AI Provider:",
+  "agent.modal.button.text": "Save and Start"
 }

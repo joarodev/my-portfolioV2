@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App.jsx";
 import { ThemeProvider } from "./context/ThemeContext";
 import { LanguageProvider } from "./context/LanguageContext.jsx";
+import { AgentProvider } from "./context/AgentContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <LanguageProvider>
       <ThemeProvider>
-        <App />
+        <AgentProvider>
+          <App />
+        </AgentProvider>
       </ThemeProvider>
     </LanguageProvider>
   </StrictMode>

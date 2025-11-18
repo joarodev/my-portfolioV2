@@ -6,6 +6,7 @@ import ProjectSection from '../pages/Proyects'
 import CertificatesCRUD from '../pages/CertificatesCRUD'
 import Resume from '../pages/Resume'
 import Contact from '../pages/Contact'
+import Agent from '../pages/Agent'
 
 const router = createBrowserRouter([
     {
@@ -49,6 +50,15 @@ const router = createBrowserRouter([
         <>
           <Navbar/>
           <Contact/>
+        </>
+      ),
+      errorElement: <Error404/>,
+    },
+    {
+      path: "/agent",
+      element: (
+        <>
+          <Agent/>
         </>
       ),
       errorElement: <Error404/>,

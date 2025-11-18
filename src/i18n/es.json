@@ -138,5 +138,13 @@
   "tour.modal.title": "¡Bienvenido!",
   "tour.modal.description": "¿Te gustaría hacer un tour para conocer las funcionalidades del sitio?",
   "tour.modal.start": "Comenzar Tour",
-  "tour.modal.skip": "Saltar"
+  "tour.modal.skip": "Saltar",
+  "agent.modal.title": "Coloca tu API Key",
+  "agent.modal.selector.text": "Selecciona tu proveedor:",
+  "agent.modal.button.text": "Guardar",
+  "agent.button.normalMode": "Modo Normal",
+  "agent.chat.input.text": "Consultar sobre proyectos, certificados, formación, etc...",
+  "agent.chat.button.text": "Enviar",
+  "agent.chat.provider": "Porfavor coloca una API KEY para iniciar el agente.",
+  "agent.modal.tooltip": "Tu API key se usa únicamente desde tu navegador para conectarte con el modelo de IA. No se guarda, no se comparte y no sale de tu dispositivo."
 }
