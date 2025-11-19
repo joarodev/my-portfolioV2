@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex flex-1 justify-end">
-            <ButtonAgentAI text="Modo Agente" path="/agent" />
+            <ButtonAgentAI text={t("tour.agent_mode.title")} path="/agent" />
             <div className="dropdown-hover-container">
               <button
                 id="settings-button"

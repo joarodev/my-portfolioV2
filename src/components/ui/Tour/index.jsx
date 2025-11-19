@@ -54,6 +54,13 @@ const Tour = () => {
             description: t("tour.social_buttons.description"),
           },
         },
+        {
+          element: "#agent-mode-button",
+          popover: {
+            title: t("tour.agent_mode.title"),
+            description: t("tour.agent_mode.description"),
+          },
+        },
       ],
     });
 

@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const store = new Map(); // in-memory: key -> timestamp (ms)
+const store = new Map();
 const RATE_LIMIT_MS = 1000 * 60 * 5; // 5 min
 
 export default async function handler(req, res) {

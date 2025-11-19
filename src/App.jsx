@@ -75,6 +75,13 @@ function AppContent() {
       },
     },
     {
+      element: "#agent-mode-button",
+      popover: {
+        title: t("tour.agent_mode.title"),
+        description: t("tour.agent_mode.description"),
+      },
+    },
+    {
       element: "#settings-button",
       popover: {
         title: t("tour.settings.title"),
@@ -87,7 +94,7 @@ function AppContent() {
         title: t("tour.social_buttons.title"),
         description: t("tour.social_buttons.description"),
       },
-    },
+    }
   ];
 
   const mobileSteps = [

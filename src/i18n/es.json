@@ -131,6 +131,8 @@
   "tour.settings.description": "Aquí puedes cambiar el idioma y el tema del sitio web.",
   "tour.hero_title.title": "¡Hola!",
   "tour.hero_title.description": "Este es mi nombre y mi profesión.",
+  "tour.hero_buttons.title": "Botones de Acción",
+  "tour.hero_buttons.description": "Estos botones te llevarán a mis proyectos y a mi currículum.",
   "tour.social_buttons.title": "Contacto",
   "tour.social_buttons.description": "Estos botones te derivarán a mis medios de contacto",
   "tour.filter_button.title": "Filtrar Proyectos",
@@ -146,5 +148,7 @@
   "agent.chat.input.text": "Consultar sobre proyectos, certificados, formación, etc...",
   "agent.chat.button.text": "Enviar",
   "agent.chat.provider": "Porfavor coloca una API KEY para iniciar el agente.",
-  "agent.modal.tooltip": "Tu API key se usa únicamente desde tu navegador para conectarte con el modelo de IA. No se guarda, no se comparte y no sale de tu dispositivo."
+  "agent.modal.tooltip": "Tu API key se usa únicamente desde tu navegador para conectarte con el modelo de IA. No se guarda, no se comparte y no sale de tu dispositivo.",
+  "tour.agent_mode.title": "Modo Agente",
+  "tour.agent_mode.description": "Haz clic aquí para activar el modo agente e interactuar con un asistente de IA."
 }
