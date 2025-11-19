@@ -8,7 +8,7 @@ export default function ApiModal() {
   const { apiKey, apiProvider, setApiKey, setApiProvider, setIsModalOpen } =
     useAgent();
   const [key, setKey] = useState("");
-  const [provider, setProvider] = useState("openai");
+  const [provider, setProvider] = useState("gemini");
   const [showKey, setShowKey] = useState(false);
   const { t } = useLanguage();
 
@@ -49,7 +49,7 @@ export default function ApiModal() {
       <motion.div
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -50, opacity: 0 }}
+        exit={{ y: -50, opacity: 0 }} 
         className="bg-bg p-8 rounded-lg shadow-lg text-fg relative"
       >
         <div className="absolute top-4 right-4 group">
@@ -81,8 +81,8 @@ export default function ApiModal() {
             onChange={(e) => setProvider(e.target.value)}
             className="w-full p-2 rounded bg-bg2 text-fg"
           >
-            <option value="openai">OpenAI</option>
             <option value="gemini">Google Gemini</option>
+            <option value="openai" disabled>OpenAI (🔜)</option>
           </select>
         </div>
         <div className="mb-4 relative">

@@ -29,10 +29,8 @@ export default function CertificatesCRUD() {
       const newCertificateId = await addCertificate(formData);
       const newCertificate = { id: newCertificateId, ...formData };
       
-      // Update the context with the new certificate
       setCertificates((prev) => [...prev, newCertificate]);
 
-      // Reset form and navigate to home
       setFormData({ name: '', institution: '', url: '', idc: '' });
       navigate('/');
 

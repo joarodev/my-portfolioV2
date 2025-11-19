@@ -5,7 +5,6 @@ export default function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simula la carga inicial (5 segundos)
     const timer = setTimeout(() => setIsLoading(false), 5000);
     return () => clearTimeout(timer);
   }, []);
@@ -20,7 +19,6 @@ export default function LoadingScreen() {
           transition={{ duration: 1 }}
           className="fixed inset-0 z-[9999] bg-bg flex flex-col items-center justify-center"
         >
-          {/* Logo o ícono animado */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: [0.8, 1.1, 1], opacity: 1 }}
@@ -46,7 +44,6 @@ export default function LoadingScreen() {
             />
           </motion.div>
 
-          {/* Texto */}
           <motion.p
             className="text-fg/80 mt-6 text-sm font-medium tracking-wide"
             initial={{ opacity: 0 }}

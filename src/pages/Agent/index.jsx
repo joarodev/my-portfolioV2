@@ -7,7 +7,7 @@ import ApiModal from "./components/ApiModal";
 import Chat from "./components/Chat";
 import { motion, AnimatePresence } from "framer-motion";
 import { createSystemPrompt } from "./utils/systemPrompt";
-import { getOpenAIResponse, getGeminiResponse } from "./utils/ai";
+import { getGeminiResponse } from "./utils/ai";
 import { convertToTOON } from "./utils/toon";
 import NavbarAgent from "./components/NavbarAgent";
 import infoData from "../../data/info.json";
@@ -26,8 +26,6 @@ export default function Agent() {
   useEffect(() => {
     if (projects.length > 0 && certificates.length > 0) {
         const generatedToonData = convertToTOON(projects, certificates, infoData);
-        console.log("TOON Generado: \n" + generatedToonData)
-        
         setToonData(generatedToonData);
         setSystemPrompt(createSystemPrompt(generatedToonData));
     }

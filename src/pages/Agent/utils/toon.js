@@ -4,7 +4,7 @@ const escape = (value) => {
   return value.replace(/"/g, '\\"').replace(/\n/g, " ");
 };
 
-// --- Función recursiva para serializar cualquier objeto YAML ---
+// Función recursiva para serializar cualquier objeto YAML
 const serializeObject = (obj, indent = 2) => {
   let output = "";
 
@@ -61,7 +61,7 @@ function JSONtoTOON(obj, indent = 0) {
   return str;
 }
 
-// --- CONVERT TO TOON PRINCIPAL ---
+// CONVERT TO TOON PRINCIPAL
 export const convertToTOON = (projects, certificates, i18n) => {
   let toonString = "version: 1.0\n";
 
