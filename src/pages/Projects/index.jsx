@@ -27,7 +27,7 @@ export default function ProjectSection() {
           <div className="w-full text-fg px-6 mx-auto py-20 flex flex-col sm:items-center z-10 md:max-w-7xl">
             <div className="text-center justify-center items-center mb-6 w-full">
               <h2 className="mb-2 title-text text-fg">{t("project.title")}</h2>
-              <p className="text-fg text-2xl ">{t("project.subtitle")}</p>
+              <p className="text-fg/80 text-lg">{t("project.subtitle")}</p>
             </div>
 
             <div className="w-full flex justify-end mb-8">

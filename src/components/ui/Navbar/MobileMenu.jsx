@@ -31,6 +31,14 @@ const MobileMenu = ({ isOpen, onClose }) => {
         >
           {t("navbar.contact")}
         </Link>
+        <Link
+          id="mobile-publications-link"
+          to="/publications"
+          className="text-xl subtitle-text text-fg hover:text-secondary"
+          onClick={onClose}
+        >
+          {t("navbar.publications")}
+        </Link>
         <div id="mobile-social-buttons absolute bottom-0"></div>
         {/* <div className="mt-4 flex flex-col items-center gap-2">
           <button className="w-full text-center px-3 py-1 text-sm hover:bg-primary/20 rounded-md">

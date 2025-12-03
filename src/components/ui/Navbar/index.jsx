@@ -59,6 +59,13 @@ const Navbar = () => {
             >
               {t("navbar.resume")}
             </Link>
+            <Link
+              id="publications-link"
+              to="/publications"
+              className="hover:font-bold duration-150 hover:text-secondary"
+            >
+              {t("navbar.publications")}
+            </Link>
           </div>
           <div className="flex md:hidden flex-1 justify-center items-center gap-4">
             <Link

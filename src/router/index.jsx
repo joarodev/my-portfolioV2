@@ -7,6 +7,8 @@ import CertificatesCRUD from '../pages/CertificatesCRUD'
 import Resume from '../pages/Resume'
 import Contact from '../pages/Contact'
 import Agent from '../pages/Agent'
+import Publications from '../pages/Publications'
+import PublicationDetail from '../pages/Publications/components/PublicationDetail/PublicationDetail'
 
 const router = createBrowserRouter([
     {
@@ -40,9 +42,24 @@ const router = createBrowserRouter([
       errorElement: <Error404/>,
     },
     {
-      path: "/blog",
-      element: <div>blog</div>,
+      path: "/publications",
+      element: (
+        <>
+        <Navbar/>
+        <Publications/>
+        </>
+      ),
       errorElement: <Error404/>,
+    },
+    {
+        path: "/publications/:id",
+        element: (
+            <>
+                <Navbar />
+                <PublicationDetail />
+            </>
+        ),
+        errorElement: <Error404 />,
     },
     {
       path: "/contact",

@@ -67,3 +67,22 @@ export async function addCertificate(certificateData) {
     const docRef = await addDoc(certificatesRef, certificateData);
     return docRef.id;
 }
+
+export async function publicationsFirebase(){
+    const publicationsRef = collection(db, "publicationsDB");
+    const snapshot = await getDocs(publicationsRef)
+    
+    const publicationsDB = snapshot.docs.map((elem) => {
+    let publications = elem.data()
+    publications.id = elem.id;
+    return publications;
+});
+    return publicationsDB;
+}
+
+export async function getPublication(idp){
+    const publicationsRef = collection(db, "publicationsDB")
+    const docRef = doc(publicationsRef, idp)
+    const snapshot = await getDoc(docRef);
+    return {...snapshot.data(), id: snapshot.id}
+}

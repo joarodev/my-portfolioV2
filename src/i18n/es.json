@@ -1,4 +1,5 @@
 {
+  "loadingScreen.text": "Cargando experiencia",
   "navbar.home": "Inicio",
   "navbar.about": "Sobre mi",
   "navbar.projects": "Proyectos",
@@ -73,7 +74,7 @@
     }
   ],
   "contact.title": "Contacto",
-  "contact.description": "¿Tienes alguna pregunta o tienes algun proyecto al que pueda sumar valor? No dudes en contactarme.",
+  "contact.description": "Si querés colaborar, trabajar juntos o tenés alguna consulta, estoy disponible para ayudarte. Podemos hablar cuando quieras.",
   "contact.title.link": "Ponte en contacto.",
   "contact.form.name": "Nombre",
   "contact.form.email": "Email",
@@ -83,7 +84,7 @@
   "contact.form.error": "Hubo un error al enviar el mensaje. Inténtalo de nuevo.",
   "contact.form.buttom.submitted": "Enviado!",
   "project.title": "Proyectos",
-  "project.subtitle": "Mi colección de proyectos, un vistazo a mi trabajo profesional...",
+  "project.subtitle": "Una selección de proyectos que integran IA, programación y tecnología aplicada, con un enfoque en soluciones eficientes y escalables.",
   "project.filter.title": "Filtrar Proyectos",
   "project.filter.searchPlaceholder": "Buscar por nombre...",
   "project.filter.filterBy": "Filtrar por",
@@ -127,6 +128,8 @@
   "tour.contact.description": "Si quieres contactarme, esta es la sección a la que debes ir.",
   "tour.resume.title": "CV",
   "tour.resume.description": "Aquí puedes encontrar mi currículum detallado.",
+  "tour.publications.title": "Publicaciones",
+  "tour.publications.description": "Articulos y papers técnicos detallados sobre mis proyectos",
   "tour.settings.title": "Configuración",
   "tour.settings.description": "Aquí puedes cambiar el idioma y el tema del sitio web.",
   "tour.hero_title.title": "¡Hola!",
@@ -150,5 +153,12 @@
   "agent.chat.provider": "Porfavor coloca una API KEY para iniciar el agente.",
   "agent.modal.tooltip": "Tu API key se usa únicamente desde tu navegador para conectarte con el modelo de IA. No se guarda, no se comparte y no sale de tu dispositivo.",
   "tour.agent_mode.title": "Modo Agente",
-  "tour.agent_mode.description": "Haz clic aquí para activar el modo agente e interactuar con un asistente de IA."
+  "tour.agent_mode.description": "Haz clic aquí para activar el modo agente e interactuar con un asistente de IA.",
+  "navbar.publications": "Publicaciones",
+  "publications.title": "Publicaciones",
+  "publications.description": "Una colección de artículos y papers que reúnen mi trabajo técnico, investigación aplicada y aportes al ecosistema tecnológico.",
+  "publications.card.read_more": "Leer más",
+  "publications.detail.download_pdf": "Descargar PDF",
+  "publications.detail.back": "Volver",
+  "publications.detail.publication.detail.loading": "Cargando publicación"
 }

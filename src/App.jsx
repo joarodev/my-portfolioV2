@@ -75,6 +75,13 @@ function AppContent() {
       },
     },
     {
+      element: "#publications-link",
+      popover: {
+        title: t("tour.publications.title"),
+        description: t("tour.publications.description"),
+      },
+    },
+    {
       element: "#agent-mode-button",
       popover: {
         title: t("tour.agent_mode.title"),
