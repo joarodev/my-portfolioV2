@@ -55,6 +55,12 @@
   ],
   "aboutme.experience.formacion": [
     {
+      "year": "2025 - 2027",
+      "title": "Licenciatura en Ciencia de Datos.",
+      "company": "Universidad del Gran Rosario",
+      "description": "Formación orientada al estudio integral del ciclo de vida de los datos, abarcando desde su adquisición y gestión hasta el análisis avanzado y la generación de conocimiento para la toma de decisiones. La carrera proporciona sólidos fundamentos en matemática, estadística y probabilidad, esenciales para el análisis cuantitativo y el modelado de datos. La formación incluye el desarrollo, entrenamiento y evaluación de modelos predictivos y clasificadores, el procesamiento de grandes volúmenes de datos, el uso de herramientas de análisis y la aplicación de metodologías científicas para resolver problemas reales en distintos dominios."
+    },
+    {
       "year": "2023 - 2025",
       "title": "Técnico Superior en Ciencia de Datos.",
       "company": "Instituto Técnico Superior Teclab",
