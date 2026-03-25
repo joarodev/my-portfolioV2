@@ -55,6 +55,12 @@
   ],
   "aboutme.experience.formacion": [
     {
+      "year": "2025 - 2027",
+      "title": "Bachelor's Degree in Data Science",
+      "company": "Universidad del Gran Rosario",
+      "description": "Education focused on the comprehensive study of the data lifecycle, covering everything from data acquisition and management to advanced analysis and knowledge generation for decision-making. The program provides strong foundations in mathematics, statistics, and probability, which are essential for quantitative analysis and data modeling. The training includes the development, training, and evaluation of predictive and classification models, the processing of large volumes of data, the use of analytical tools, and the application of scientific methodologies to solve real-world problems across different domains."
+    },
+    {
       "year": "2023 - 2025",
       "title": "Higher Technician in Data Science.",
       "company": "Teclab Higher Technical Institute",
